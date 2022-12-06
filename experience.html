@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="/single-div-css-cube/dist/style.css" rel="stylesheet"> -->
+    <link href="dist/css/lightbox.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    <title>Experience</title>
+</head>
+<body>
+    <main>
+    <a class = "skip" href="#skip" tabindex="0">Skip to Main Content</a>
+    <div class=navigation>
+        <h1 class=name>Peter Ford</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="experience.html" class="current">Experience </a></li>
+                <li><a href="skills.html">Skills </a></li>
+                <li><a href="contact.html">Contact </a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class=containers>
+        <a href="images/michigan.png" target="_blank" data-lightbox="activity" data-title="Student at the University of Michigan majoring in Computer Science." data-alt="Umich">
+            <img src="images/michigan.png" alt="university of michigan logo">
+        </a>
+        <a href="images/af.png" target="_blank" data-lightbox="activity" data-title="Contracted in the United States Air Force. Member of Detachment 390 at UofM." data-alt="AF">
+            <img src="images/af.png" alt="air force rotc logo">
+        </a>
+        <a href="images/msu.jpeg" target="_blank" data-lightbox="activity" data-title="Fellowed at MSU St. Andrews. Programming fellow where I utilized pyGame to raise awareness surrounding Coronavirus." data-alt="MSU">
+            <img src="images/msu.jpeg" alt="michigan state logo">
+        </a>
+        <a href="images/mfans.jpeg" target="_blank" data-lightbox="activity" data-title="Member of MFans. Club in which I utilize R to analyze the NFL." data-alt="MFans">
+            <img src="images/mfans.jpeg" alt="mfans logo">
+        </a>
+        <a href="images/i5.png" id=skip target="_blank" data-lightbox="activity" data-title="Member of i5 Space, a student organization for students interested in pursuing a career in the Space Force." data-alt="i5">
+            <img src="images/i5.png" alt="i5">
+        </a>
+        <a href="images/robotics.png" target="_blank" data-lightbox="activity" data-title="Member of The Charge, FIRST Robotics team. Part of programming subteam." data-alt="robot">
+            <img src="images/robotics.png" alt="robotics">
+        </a>
+        <a href="images/campingclub.jpeg" target="_blank" data-lightbox="activity" data-title="Member of Michigan Camping Club. A social club that explores the beauty nature has to offer." data-alt="camping">
+            <img src="images/campingclub.jpeg" alt="camping">
+        </a>
+        <a href="images/norwegian.jpeg" target="_blank" data-lightbox="activity" data-title="Completed Norwegian Ruck March, the toughest physical and mental challenge I have ever had in my life." data-alt="norwegian march">
+            <img src="images/norwegian.jpeg" alt="norwegian foot march">
+        </a>
+        <a href="images/projectGo.jpeg" target="_blank" data-lightbox="activity" data-title="ProjectGO alumni. Program in which I did an intensive study of Chinese over the course of 2 months." data-alt="ProjectGO">
+            <img src="images/projectGo.jpeg" alt="projectGo">
+        </a>
+    </div>
+    <footer style="position: fixed; bottom: 0; width: 100%;">
+        <h2>Peter Ford, SI 339</h2>
+    </footer>
+</main>
+    <script src="dist/js/lightbox-plus-jquery.js"></script>
+    <script>
+        lightbox.option({
+          'resizeDuration': 100,
+          'wrapAround': true
+        })
+    </script>
+</body>
+</html>
